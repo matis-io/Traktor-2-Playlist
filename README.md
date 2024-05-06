@@ -3,7 +3,7 @@ This is a fork of [lord-carlos' traktor-2-playlist script](https://github.com/lo
 ## Modifications in traktor2playlistMac
 
 - File Path Separators: Updated the script to use forward slashes `/` instead of backslashes `\` to ensure compatibility with macOS file system conventions.
-- Playlist Naming Convention: Enhanced the naming convention of playlists by including the parent folder's name as a prefix to each playlist name. This change aids in organizing and identifying playlists more effectively.
+- Playlist Naming Convention: Changed the naming convention of playlists by including the parent folder's name as a prefix to each playlist name.
 
 Original readme:
 # traktor-2-playlist
