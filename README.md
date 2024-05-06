@@ -1,8 +1,8 @@
-This is a fork of lord-carlos' traktor-2-playlist script. You can view the original project at lord-carlos/traktor-2-playlist on GitHub. I have introduced a new script named traktor2playlistMac.py, which is an adaptation of the original script tailored for macOS environments. The modifications are detailed below.
+This is a fork of [lord-carlos' traktor-2-playlist script](https://github.com/lord-carlos/traktor-2-playlist). I have introduced a new script named traktor2playlistMac.py, which is an adaptation of the original script tailored for macOS environments. The modifications are detailed below.
 
 ## Modifications in traktor2playlistMac
 
-- File Path Separators: Updated the script to use forward slashes (/) instead of backslashes (\) to ensure compatibility with macOS file system conventions.
+- File Path Separators: Updated the script to use forward slashes `/` instead of backslashes `\` to ensure compatibility with macOS file system conventions.
 - Playlist Naming Convention: Enhanced the naming convention of playlists by including the parent folder's name as a prefix to each playlist name. This change aids in organizing and identifying playlists more effectively.
 
 Original readme:
