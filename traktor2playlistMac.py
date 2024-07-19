@@ -61,7 +61,7 @@ def parse_collection_nml(file_path):
             # Now find playlist nodes within each folder
             for node in folder_node.findall(".//NODE[@TYPE='PLAYLIST']"):
                 playlist_name = node.get("NAME")
-                full_playlist_name = f"{folder_name}_{playlist_name}"  # Prepend folder name
+                full_playlist_name = f"{folder_name} {playlist_name}"  # Prepend folder name
                 entries = []
 
                 for entry_node in node.findall(".//ENTRY/PRIMARYKEY"):
